@@ -11,4 +11,40 @@
   --secondary-color: #e1b168;
   --sub-color: #555555;
   --card-color: #343942;
+  --smooth: all 0.3s ease-in;
 }
+
+/* ================= button ========================= */
+.btn-primary-outline {
+  background: transparent;
+  color: #dedede;
+  font-size: 1.25rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 0rem;
+  padding: 1.3rem 2.3125rem;
+  transition: var(--smooth);
+}
+
+.btn-primary-custom {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 0rem;
+  padding: 1.3rem 2.3125rem;
+  transition: var(--smooth);
+}
+
+.header-top-img {
+  width: 100%;
+  max-width: 23.625rem;
+}
+
+/* ================== header ======================== */
+.header {
+  background: var(--primary-color);
+  padding: 4.125rem;
+  color: #dedede;
+}
+
+/* ================== footer ======================== */
