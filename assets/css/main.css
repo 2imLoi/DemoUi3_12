@@ -48,3 +48,52 @@
 }
 
 /* ================== footer ======================== */
+.footer {
+  clear: both;
+  background: var(--primary-color);
+  transition: var(--smooth);
+}
+
+.footer-top-feed,
+.footer-top-social li a {
+  color: var(--sub-text-color);
+  font-size: 1.3rem;
+}
+
+.footer-bottom-content {
+  padding-top: 4rem;
+  color: var(--sub-text-color);
+}
+
+.footer-bottom-content div {
+  max-width: 200px;
+}
+
+.bottom-content-form {
+  min-width: 500px;
+}
+
+.bottom-content-form p {
+  max-width: 250px;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-content-form input {
+  border-radius: 0;
+  width: 100%;
+}
+
+.bottom-content-form .input-group {
+  min-width: 100%;
+}
+
+.test-card {
+  width: 100%;
+  max-width: 15rem;
+}
+
+.test-img {
+  width: 100%;
+  object-fit: container;
+}
